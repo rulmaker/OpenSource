@@ -1,0 +1,17 @@
+/*********Utilidades BOTON ENVIAR***************/
+
+.error { 
+    outline: 2px solid rgb(172, 85, 85);
+}
+
+.right { 
+  outline: 2px solid rgb(90, 214, 90);
+}
+
+input{
+    outline: none;
+}
+
+#submit:disabled{
+    cursor: not-allowed;
+}

@@ -1,0 +1,7 @@
+.fa-minus-circle,
+.fa-plus-circle {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}

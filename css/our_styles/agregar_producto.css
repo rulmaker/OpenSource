@@ -1,0 +1,40 @@
+.mensaje-contenedor{
+    width: 100%;
+    height: 3rem;
+}
+
+/* * detalles tarjetas de producto */
+.producto{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.producto__imagen{
+    width: 100%;
+
+}
+
+.card-body{
+    background-color: white;
+}
+
+.contenedor-lista{
+    margin-top: 3rem;
+}
+
+.lista{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  @media (max-width: 450px){
+    .lista{
+        display: flex;
+        flex-flow: column;
+      }
+  }
+
+  @media (min-width: 992px) {
+    .lista {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
